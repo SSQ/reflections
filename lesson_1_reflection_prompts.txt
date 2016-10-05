@@ -34,3 +34,38 @@ Now that you have your workspace set up, what do you want to try using Git for?
 
 
 
+
+
+
+
+
+git log
+#check the commmits once at a time
+
+git log --stat
+# can see either commit message and modified message
+
+git diff [commit id 1] [commit id 2]
+
+git --version
+
+git clone [URL]
+
+git config --global color.ui auto
+#get colored diff output
+
+git checkout [commit id]
+# resetting all you files when they commit
+
+cd ~
+# navigate to root directory
+
+git config --global core.editor "'D:/Program\ Files\ \(x86\)/Sublime\ Text\ 3/sublime_text.exe' -n -w"
+git config --global push.default upstream
+git config --global merge.conflictstyle diff3
+# print in git bash.exe to configure your git-bash when it starts
+alias subl="D:/Program\ Files\ \(x86\)/Sublime\ Text\ 3/sublime_text.exe"
+# print in the last sentence of .bash_profile
+
+mv [file name 1] [file name 2]
+# rename file 1 to 2

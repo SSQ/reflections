@@ -1,3 +1,43 @@
+git remote
+
+git remote add origin [URL]
+# create a remote 
+
+git remote
+
+git remote -v
+
+git push origin master
+# copy all the commmits in branch to origin remote in github
+
+git clone [URL]
+
+git pull origin master
+# git fetch origin
+# git merge master origin/master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 When would you want to use a remote repository rather than keeping all your work
 local?
 
@@ -18,20 +58,42 @@ automatically stay up-to-date with your remote repository?
 
  Fill in your answer here
 
+
+
+
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+   
+
+
+fork means copy a repository in github
+clone means copy a repo in both local-local and github-local
+branches mean you commit another file into the master
+
+
+
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    
+
+it will merge all the branches
+
+
+
+
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+ 
+
+dont know
+
+
+
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?

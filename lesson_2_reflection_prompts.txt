@@ -1,0 +1,109 @@
+﻿ls		ls -a
+git init		git status
+
+git add [file]			#add file to staging area
+
+git reset [file]
+# removing file from staging area
+
+git diff
+# see the diff between working dir and staging area
+
+git diff --staged
+# see the diff between staging area and repository
+
+git diff [commit id 1] [commit id 2]
+# see the diff between commits in repository
+
+git checkout master
+
+git branch
+# check branch
+
+git branch [branch name]
+
+git checkout [branch name]
+# switch to branch [branch name]
+
+git log --graph --oneline master [branch name]
+# viewing the commit history
+
+git checkout -b [branch name]
+# git branch [branch name]	# git checkout [branch name]
+
+git merge branch2 branch3
+# So if you have branch1 checked out,the merged version will combine branch1 as well as branch2 and branch3. 
+
+git merge --abort
+#Restore your files to their state before you started the merge 
+
+git show commit_id
+# compare a commit to its parent
+
+git brand -d [branch name]
+# delete the label of a branch
+
+
+
+
+What happens when you initialize a repository? Why do you need to do it?
+
+How is the staging area different from the working directory and the repository?
+
+I don't know
+
+
+
+
+What value do you think it offers?
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+
+
+git add [filename]
+#to stage file 
+git commit
+#to commit
+
+What are some situations when branches would be helpful in keeping your history
+organized? 
+
+when you want to have an "easy-mode"
+git branch easy-mode
+git checkout easy-mode
+git add game.js
+git commit -m "description"
+
+How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+
+
+git log --graph --oneline master coins
+
+git -b new-branch-name
+# git branch new-branch
+# git checkout new-branch
+
+
+What is the result of merging two branches together?
+
+git show [commit-id]
+#compare one tip of branch with its parent
+git merge branch1 branch2
+
+
+Why do we represent it in
+the diagram the way we do?
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+
+I'm not sure
+
+
